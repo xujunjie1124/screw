@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookStore name="java" xmlns="http://joey.org/bookStore"
+	xmlns:audlt="http://japan.org/book/audlt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="bookStore.xsd">
+	<Keeper>须俊杰</Keeper>
+	<address>北京市望京商业中心</address>
+	<title>我的书店</title>
+	<isOk>true</isOk>
+	<books>
+		<book>
+			<id>11561445</id>
+			<title>火车头 [3-6岁]</title>
+			<author>布莱恩·弗洛卡</author>
+			<publishDate>2014-12-01</publishDate>
+			<price>23.80</price>
+		</book>
+		<book>
+			<id>11452840</id>
+			<title>东野圭吾：解忧杂货店 [ナミヤ雑貨店の奇蹟]</title>
+			<author>东野圭吾</author>
+			<publishDate>2014-08-01</publishDate>
+			<price>27.80</price>
+		</book>
+		<book>
+			<id>11573108</id>
+			<title>如果世上不再有猫</title>
+			<author>川村元气</author>
+			<publishDate>2014-01-01</publishDate>
+			<price>25.80</price>
+		</book>
+	</books>
+	<users>
+		<user>
+			<id>1</id>
+			<name>张三</name>
+			<age>23</age>
+			<weight>65</weight>
+			<height>178</height>
+		</user>
+		<user>
+			<id>2</id>
+			<name>李四</name>
+			<age>24</age>
+			<weight>75</weight>
+			<height>188</height>
+		</user>
+		<user>
+			<id>3</id>
+			<name>王五</name>
+			<age>25</age>
+			<weight>56</weight>
+			<height>172</height>
+		</user>
+	</users>
+	<userMap>
+		<entry>
+			<string>4</string>
+			<user>
+				<id>4</id>
+				<name>王二小</name>
+				<age>15</age>
+				<weight>50</weight>
+				<height>192</height>
+			</user>
+		</entry>
+		<entry>
+			<string>5</string>
+			<user>
+				<id>5</id>
+				<name>周扒皮</name>
+				<age>45</age>
+				<weight>59</weight>
+				<height>132</height>
+			</user>
+		</entry>
+	</userMap>
+</bookStore>
