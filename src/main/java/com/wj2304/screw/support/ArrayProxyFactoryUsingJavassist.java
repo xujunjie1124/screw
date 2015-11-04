@@ -64,7 +64,7 @@ public class ArrayProxyFactoryUsingJavassist {
         ClassPool classPool = ClassPool.getDefault();
         classPool.insertClassPath(new ClassClassPath(ArrayProxy.class));
         
-        CtClass cc = classPool.makeClass("com.jd.ofc.screw.common.ArrayField" + UUID.randomUUID().toString().replace("-", ""));
+        CtClass cc = classPool.makeClass("com.wj2304.screw.common.ArrayField" + UUID.randomUUID().toString().replace("-", ""));
         cc.addInterface(classPool.get(ArrayProxy.class.getName()));
         
         cc.addMethod(CtMethod.make(createArraySetCode(clazz), cc));
