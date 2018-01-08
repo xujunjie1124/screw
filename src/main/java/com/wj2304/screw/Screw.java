@@ -20,8 +20,8 @@ public abstract class Screw {
      * @return 指定类型对象的实例
      */
     public static <T> T fromXML(String xml, Class<T> clazz) {
-        Assert.notNull(xml, "XML不能为空");
-        Assert.notNull(clazz, "Class对象不能为空");
+        Assert.notNull(xml, "XML不能为空.");
+        Assert.notNull(clazz, "Class对象不能为空.");
         long start = System.currentTimeMillis();
 
         T ret = null;
